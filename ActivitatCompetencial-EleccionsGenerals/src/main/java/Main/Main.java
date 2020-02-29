@@ -38,16 +38,17 @@ public class Main {
 
         try {
             // CONNEXIO A LA BASE DE DADES
-            /*Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             String password = "pastanaga";
             String user = "perepi";
+            String database = "rrhh";
             String ipServer = "192.168.56.102";
 
-            Connection con = DriverManager.getConnection("jdbc:mysql://" + ipServer + ":3306/rrhh",user,password);*/
+            Connection con = DriverManager.getConnection
+            ("jdbc:mysql://" + ipServer + ":3306/" + database +,user,password);
 
             // CREAR STATEMENT
-
 
             //-------------------------//
             //       EXERCICI 1        //
