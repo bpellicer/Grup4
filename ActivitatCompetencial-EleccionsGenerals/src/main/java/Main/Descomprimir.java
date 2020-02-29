@@ -20,7 +20,7 @@ public class Descomprimir {
 
         String unzipDir = "output";
 
-        Path pathFitxer = Paths.get(pathActual.toString(), nomFitxer );
+        Path pathFitxer = Paths.get(pathActual.toString(), "dades",nomFitxer );
         Path pathUnzipDir = Paths.get(pathActual.toString(), unzipDir);
 
         // Create zip file stream.
