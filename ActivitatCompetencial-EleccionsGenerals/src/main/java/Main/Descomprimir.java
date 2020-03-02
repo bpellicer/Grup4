@@ -3,6 +3,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.io.FilenameFilter;
 
 import org.apache.commons.compress.archivers.zip.ZipArchiveInputStream;
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry;
@@ -10,10 +11,14 @@ import org.apache.commons.compress.utils.IOUtils;
 
 public class Descomprimir {
 
+
+    /**
+     * Descomprimeix fitxers
+     */
     public static void descomprimir() {
 
         //Obtenim el directori actual
-        Path pathActual = Paths.get(System.getProperty("user.dir"));
+        Path pathActual = Main.pathActual();
 
         //Concatenem el directori actual amb un subdirectori "dades" i afegim el fitxer "prova.zip"
         String nomFitxer = "02_201911_1.zip";
@@ -46,6 +51,19 @@ public class Descomprimir {
             e.printStackTrace();
         }
 
+    }
+
+    /**
+     * Guarda en un vector tots els noms dels fitxers ZIP
+     */
+    public static void mostraFitxersZIP() {
+        File carpetaDades = new File(Main.pathActual() + "/dades");
+
+        String[] fitxersZIP = carpetaDades.list();
+
+        for (int i = 0; i < fitxersZIP.length; i++) {
+            System.out.println("Fitxer: " + fitxersZIP[i]);
+        }
     }
 
 }
