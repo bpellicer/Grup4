@@ -35,11 +35,11 @@ public class Descomprimir {
             ZipArchiveEntry entrada;
             while ((entrada = fitxerZip.getNextZipEntry()) != null) {
                 // Print values from entry.
-                System.out.println(entrada.getName());
-                System.out.println(entrada.getMethod()); // ZipEntry.DEFLATED is int 8
+                //System.out.println(entrada.getName());
+                //System.out.println(entrada.getMethod()); // ZipEntry.DEFLATED is int 8
 
                 File file = new File(Paths.get(pathActual.toString(), unzipDir, entrada.getName()).toString());
-                System.out.println("Fitxer descomprimit:" + file);
+                //System.out.println("Fitxer descomprimit:" + file);
 
                 Files.createDirectories(pathUnzipDir);
 
