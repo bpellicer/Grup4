@@ -62,7 +62,7 @@ public class Main {
             //-------------------------//
 
             // Descomprimir fitxer
-            Descomprimir.descomprimir();
+            Descomprimir.descomprimir(Descomprimir.guardaNomsFitxers());
 
             // Importació de províncies i municipis OPCIO 2
 
