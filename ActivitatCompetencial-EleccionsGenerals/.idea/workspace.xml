@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ebe5366-b88d-4e81-915a-f386db28db97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Descomprimir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Descomprimir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/Descomprimir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Descomprimir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/PartitsPolitics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/PartitsPolitics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/Resultats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Resultats.class" afterDir="false" />
-    </list>
+    <list default="true" id="3ebe5366-b88d-4e81-915a-f386db28db97" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -123,9 +115,9 @@
     </state>
     <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864/1920.-286.1920.1080@0.0.1536.864" timestamp="1582661100639" />
     <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583154264057" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1582635840650">
+    <state x="249" y="7" key="SettingsEditor" timestamp="1583155177695">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1582635840650" />
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583155177695" />
   </component>
 </project>
