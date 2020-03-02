@@ -7,6 +7,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Iterator;
 
 public class ProvinciesMunicipis {
@@ -16,7 +18,7 @@ public class ProvinciesMunicipis {
       try {
 
       	//Obtenim el directori actual
-      	Path pathActual = Paths.get(System.getProperty("user.dir"));
+      	Path pathActual = Main.pathActual();
 
       	//Concatenem el directori actual amb un subdirectori "dades" i afegim el fitxer "03021911.DAT"
       	String nomFitxer = "02_201911_1.xlsx";
