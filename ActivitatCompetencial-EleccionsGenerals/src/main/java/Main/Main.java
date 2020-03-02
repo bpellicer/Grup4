@@ -31,7 +31,14 @@ public class Main {
     public static int teclatInt() {
         return sc.nextInt();
     }
-
+    /**
+     * Retorna el path actual
+     * @return actual path
+     */
+    public static Path pathActual() {
+        Path pathActual = Paths.get(System.getProperty("user.dir"));
+        return pathActual;
+    }
 
     public static void main (String[] args) {
 
@@ -42,11 +49,11 @@ public class Main {
 
             String password = "pastanaga";
             String user = "perepi";
-            String database = "rrhh";
+            String database = "CURSES_MUNTANYA";
             String ipServer = "192.168.56.102";
 
             Connection con = DriverManager.getConnection
-            ("jdbc:mysql://" + ipServer + ":3306/" + database +,user,password);
+            ("jdbc:mysql://" + ipServer + ":3306/" + database ,user,password);
 
             // CREAR STATEMENT
 
